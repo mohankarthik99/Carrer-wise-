@@ -1,6 +1,10 @@
 /*----------------------------------
   Font Size
 ------------------------------------*/
+.merge{
+  display: flex;
+  justify-content:center;
+}
 .g-font-size-10--xs {
   font-size: 0.625rem !important;
 }
@@ -614,6 +618,22 @@
 /*----------------------------------
   Font Family
 ------------------------------------*/
+
+@font-face{
+src: url('../fonts/Roboto-Light.ttf');
+font-family: "Lato";
+}
+@font-face{
+  src:url('../fonts/poppins/Poppins-Bold.ttf');
+  font-family: "Montserrat";
+}
+@font-face {
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
+  font-family: "Montserrat-Medium";
+}
+.secondarym{
+    font-family: "Montserrat-Medium",sans-serif !important;
+}
 .g-font-family--primary {
   font-family: Lato, sans-serif !important;
 }
@@ -7211,8 +7231,14 @@
   Colors
 ------------------------------------*/
 /* Text Colors */
+.fa.fa-tag {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+
 .g-color--primary {
-  color: #13b1cd !important;
+  color:#ea0002 !important;
 }
 
 .g-color--blueviolet {
