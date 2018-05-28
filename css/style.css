@@ -241,6 +241,29 @@ fieldset[disabled] .s-btn {
   font-size: 1rem;
   padding: 0.9375rem 1.5625rem 0.75rem;
 }
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+  transition: all .5s;
+  border-radius: 1rem;
+}
+.card:hover{
+  cursor: pointer;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.8);
+
+}
+.schools li{
+  list-style-type: none;
+  padding: 4px;
+}
+.schools li i{
+  color:#f64f64;
+
+}
 
 /* Styles
 ------------------------------ */
