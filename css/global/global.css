@@ -7234,12 +7234,14 @@ font-family: "Lato";
 .fa.fa-tag {
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: ​#13b1cd;
+  -webkit-text-stroke-color: #13b1cd;
 }
 
 .g-color--primary {
-  color:#ea0002 !important;
+  color: #13b1cd !important;
 }
+
 
 .g-color--blueviolet {
   color: #9877ea !important;
