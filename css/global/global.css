@@ -782,7 +782,11 @@ font-family: "Lato";
     display: table;
   }
 }
+.yt-vid{
+  height: 200px;
+  width:100%;
 
+}
 /*----------------------------------
   Text Alignment
 ------------------------------------*/
@@ -804,6 +808,7 @@ font-family: "Lato";
 
 /* Small screen / phone */
 @media (min-width: 34em) {
+
   .g-text-center--sm {
     text-align: center;
   }
@@ -820,6 +825,9 @@ font-family: "Lato";
 
 /* Medium screen / tablet */
 @media (min-width: 48em) {
+    .yt-vid {
+      height: 350px;
+    }
   .g-text-center--md {
     text-align: center;
   }

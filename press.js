@@ -4,8 +4,10 @@ function sel(selector){
 }
 
 function getUserInput(){
-  var query=window.location.search.slice(1);
-  scroll(sel("#"+query))
+  var query=window.location.search && window.location.search.slice(1);
+  if (query) {
+    scroll(sel("#" + query))
+}
 
 }
 
