@@ -1265,7 +1265,7 @@ fieldset[disabled] .s-btn {
   bottom: auto;
   width: 1.375rem;
   height: 0.0625rem;
-  background: #fff;
+  background: #000;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   transition-duration: 500ms;
