@@ -2399,3 +2399,17 @@ fieldset[disabled] .s-btn {
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
 }
+
+.js__swiper-news article{
+  position: relative;
+
+
+}
+.js__swiper-news article a{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+/*   left:50%;
+  transform: translateX(-50%); */
+}
