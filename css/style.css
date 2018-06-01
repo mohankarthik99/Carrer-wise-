@@ -131,7 +131,7 @@ i {
 p {
   font-size: 0.9375rem;
   font-weight: 300;
-  color: #656565;
+  color: #383535;
   line-height: 1.6;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -787,7 +787,11 @@ fieldset[disabled] .s-btn {
 .s-promo-block-v1__square-effect {
   position: relative;
 }
-
+.lanmerge>.card{
+flex:1;
+margin-left:12px;
+margin-right:12px;
+}
 .s-promo-block-v1__square-effect:before {
   position: absolute;
   top: -5rem;
@@ -2049,7 +2053,9 @@ fieldset[disabled] .s-btn {
     color: #13b1cd;
   }
 }
-
+.career{
+  background-position: fixed;
+}
 /*----------------------------------
   Footer
 ------------------------------------*/
@@ -2070,7 +2076,11 @@ fieldset[disabled] .s-btn {
   background-size: cover;
   content: " ";
 }
-
+@media (max-width:900px){
+  .lanmerge{
+    flex-direction: column;
+  }
+}
 /*----------------------------------
   Back To Top
 ------------------------------------*/

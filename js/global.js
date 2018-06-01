@@ -112,7 +112,7 @@ var Global = function() {
       if(parent.attr('data-related')) {
         $(parent.attr('data-related')).css('height', parent.height());
       }
-   });       
+   });
   }
 
   return {
@@ -129,4 +129,8 @@ var Global = function() {
 
 $(document).ready(function() {
   Global.init();
+  console.log("lol")
+  window.addEventListener("resize",function(){
+   console.log(window.innerWidth);
+  });
 });
