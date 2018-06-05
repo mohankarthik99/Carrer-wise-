@@ -1425,6 +1425,12 @@ margin-right:12px;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
+@media(max-width:600px){
+  .s-header__nav-menu-link {
+  font-size: 1rem;
+
+  }
+}
 
 .s-header__nav-menu-link-divider {
   position: relative;

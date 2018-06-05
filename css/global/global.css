@@ -5,6 +5,13 @@
   display: flex;
   justify-content:center;
 }
+  .fixparallax {
+  background-image:linear-gradient(150deg, #ec5292, #7b35b2);
+  }
+  .shadow{
+    text-shadow: none;
+    color:white !important;
+  }
 .text-justify{
   text-align: justify;
 }
@@ -473,6 +480,13 @@
   }
   .g-font-size-150--md {
     font-size: 9.375rem !important;
+  }
+  .fixparallax {
+    background-image: url("../../img/banner.png");
+  }
+  .shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    color: white;
   }
 }
 
@@ -7323,6 +7337,7 @@ font-family: "Lato";
 .g-color--sky-light {
   color: #f5f8f9 !important;
 }
+
 
 /* Hover Colors */
 .g-color--text[href]:hover {
