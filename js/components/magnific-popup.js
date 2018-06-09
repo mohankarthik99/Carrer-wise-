@@ -51,7 +51,7 @@ var MagnificPopup = function() {
     // Video iframes
     $(document).ready(function() {
       $('.js__popup__youtube').magnificPopup({
-        disableOn: 700,
+        disableOn: 100,
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
